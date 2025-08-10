@@ -7,7 +7,7 @@ pipeline {
 
     environment {
         // Slack
-        SLACK_CHANNEL = 'jenkins'
+        SLACK_CHANNEL = 'petclinic'
         SLACK_CREDENTIALS = 'slack01'
 
         // Docker Hub
@@ -16,7 +16,7 @@ pipeline {
 
         // Deployment EC2
         DEPLOYMENT_USER = 'ubuntu'
-        DEPLOYMENT_HOST = '54.243.57.208'
+        DEPLOYMENT_HOST = 'instance deployment ec2 elastic ip'
         DEPLOYMENT_KEY = 'deploy05'
     }
 
